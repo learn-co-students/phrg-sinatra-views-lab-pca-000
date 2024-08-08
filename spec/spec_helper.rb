@@ -8,7 +8,7 @@ RSpec.configure do |config|
   config.filter_run :focus
   config.include Rack::Test::Methods
 
-  config.order = 'default'
+  # config.order = 'default'
 end
 
 def app
